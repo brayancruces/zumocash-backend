@@ -1,73 +1,34 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+## ZumoCash
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+![Logo ZumaCash](https://i.imgur.com/wfpgoCG.png)
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+Proyecto para el Bootcamp de Stacks.
 
-## Description
+### Descripción
+ZumoCash es una aplicación de intercambio peer-to-peer (P2P) de criptomonedas y moneda local, diseñada para facilitar la compra y venta de tokens digitales como STX, así como la conversión a monedas fiat como el Sol peruano (PEN) y el Peso colombiano (COP). La plataforma permite a los usuarios realizar transacciones de manera segura y rápida utilizando métodos de pago locales como Yape y Nequi.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+### Características Principales
+- **Intercambio P2P de Criptomonedas**: Los usuarios pueden comprar y vender tokens digitales como STX entre sí.
+- **Conversión de Cripto a Fiat y Viceversa**: Los usuarios pueden convertir sus criptomonedas a moneda local y viceversa.
+- **Métodos de Pago Locales**: La plataforma ofrece métodos de pago locales como Yape y Nequi para facilitar las transacciones.
+- **Anuncios Personalizados**: Los usuarios pueden crear anuncios personalizados especificando el tipo de transacción, el precio, el método de pago y otros detalles relevantes.
+- **Seguridad y Confianza**: ZumoCash garantiza la seguridad y confianza en las transacciones mediante la verificación de usuarios y la gestión de reputación.
 
-## Installation
+### Tecnologías Utilizadas
+- **NestJS**: Framework de Node.js para construir aplicaciones backend escalables y eficientes.
+- **Supabase**: Plataforma de base de datos y backend que simplifica el desarrollo de aplicaciones web y móviles.
 
-```bash
-$ npm install
-```
+### Estado del Proyecto
+Actualmente, ZumoCash se encuentra en fase de desarrollo inicial debido a que es proyecto para el Bootcamp. El proyecto está en constante evolución y se están agregando nuevas características y funcionalidades regularmente.
 
-## Running the app
+### Contribuciones
+¡Se aceptan contribuciones de la comunidad! Si estás interesado en contribuir al proyecto, consulta nuestro [CONTRIBUTING.md](link-to-contributing.md) para obtener más información sobre cómo empezar.
 
-```bash
-# development
-$ npm run start
+### Autores
+ZumoCash es mantenido por: 
 
-# watch mode
-$ npm run start:dev
+- Brayan Cruces
+- Joel Vegas
 
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+### Licencia
+Este proyecto está bajo la [LICENSE.md](Licencia MIT).
